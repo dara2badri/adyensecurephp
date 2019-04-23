@@ -41,6 +41,9 @@ function requestPaymentData($order, $server, $authentication)
     );
 
     $setupString = json_encode($request);
+    
+    echo $setupString;
+
 
     //  Initiate curl
     $curlAPICall = curl_init();
@@ -65,6 +68,9 @@ function requestPaymentData($order, $server, $authentication)
             "Content-Length: " . strlen($setupString)
         )
     );
+    
+    echo $curlAPICall;
+
 
     // Execute
     $result = curl_exec($curlAPICall);
