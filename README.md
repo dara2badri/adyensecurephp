@@ -19,7 +19,7 @@ For more information visit our <a href="https://docs.adyen.com/developers/paymen
 
 Use this shortcut to deploy to Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Adyen/adyen-secured-fields-sample-code)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dara2badri/adyensecurephp)
   
 Alternatively, clone this repository and deploy it to your own PHP server
 
