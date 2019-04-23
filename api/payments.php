@@ -69,9 +69,9 @@ function requestPaymentData($order, $server, $authentication)
         )
     );
     
-    echo . strlen($setupString);
+    //echo . strlen($setupString);
     
-    echo $curlAPICall;
+    //echo $curlAPICall;
 
 
     // Execute
@@ -82,6 +82,8 @@ function requestPaymentData($order, $server, $authentication)
 
     // When this file gets called by javascript or another language, it will respond with a json object
     echo $result;
+    
+    echo "Manoj"
 }
 
 requestPaymentData($order, $server, $authentication);
